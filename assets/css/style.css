@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face{
+    font-family: 'Athene';
+    src: url(../font/Athene.otf);
+}
+.font{
+    font-family: 'Athene';
+    font-size: 9em;
+    font-weight: 400;
+}
+#beige{
+    background-color: #efe8d7;
+    color: #002a5a;
+}
+nav{
+    position: sticky;
+    top:0;
+    background-color:transparent;
+    padding: 5px 0 0 0;
+}
+.border{
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
+.inline{
+    display: inline;
+}
+.sc20{
+    padding: 0 73% 0 7%;
+    background-color: transparent;
+}
+.width{
+    width: 75%;
+    margin: 2% auto 0;
+    text-align: center;
+}
+.strich{
+    word-spacing: -65px;
+    font-family: athene;
+}
+span.font{
+    font-size: 1.3em;
+}
+span:nth-of-type(2).font{
+    font-size: 1.1em;
+    font-family: 'open sans';
+}
+.stand{
+    margin:6% 0;
+}
+div.width{
+    width:25%;
+    text-align: left;
+    padding-bottom: 8%;
+}
+#pink{
+    background-color:#F4C4C4;
+    color: #282b29;
+}
+.left{
+    padding:8% 0 2% 100px;
+}
+.text{
+    width:33%;
+    padding:0 0 70px 60%;
+    line-height: 30px;
+}
