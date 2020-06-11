@@ -68,3 +68,11 @@ div.width{
     padding:0 0 70px 60%;
     line-height: 30px;
 }
+.th{
+    border-bottom: solid 1px;
+    text-align: right;
+}
+#table{
+    width: 40%;
+    margin:0 0 0 52%;
+}
