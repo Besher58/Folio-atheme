@@ -11,19 +11,15 @@
     font-size: 9em;
     font-weight: 400;
 }
-#beige{
-    background-color: #efe8d7;
-    color: #002a5a;
-}
 nav{
-    position: sticky;
+    position:sticky;
     top:0;
     background-color:transparent;
     padding: 5px 0 0 0;
 }
-.border{
-    border-bottom: solid 1px;
-    padding-bottom: 10px;
+#beige{
+    background-color: #efe8d7;
+    color: #002a5a;
 }
 .inline{
     display: inline;
@@ -37,9 +33,21 @@ nav{
     margin: 2% auto 0;
     text-align: center;
 }
+.border{
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
 .strich{
     word-spacing: -65px;
     font-family: athene;
+}
+div.width{
+    width:25%;
+    text-align: left;
+    margin: 3% auto 9%;
+}
+.stand{
+    margin:0 0 6% 0;
 }
 span.font{
     font-size: 1.3em;
@@ -47,14 +55,6 @@ span.font{
 span:nth-of-type(2).font{
     font-size: 1.1em;
     font-family: 'open sans';
-}
-.stand{
-    margin:6% 0;
-}
-div.width{
-    width:25%;
-    text-align: left;
-    padding-bottom: 8%;
 }
 #pink{
     background-color:#F4C4C4;
@@ -65,16 +65,16 @@ div.width{
 }
 .text{
     width:33%;
-    padding:0 0 70px 60%;
+    margin:0 0 70px 60%;
     line-height: 30px;
-}
-.th{
-    border-bottom: solid 1px;
-    text-align: right;
 }
 #table{
     margin:0 0 0 53%;
     width: 40%;
+}
+.th{
+    border-bottom: solid 1px;
+    text-align: right;
 }
 .number{ 
     border-bottom: solid 1px;
@@ -91,5 +91,77 @@ div.width{
     text-align: right;
     padding: 20px 0;
     border-bottom: solid 1px;
-    font-weight: 900;
+}
+.work{
+    width: 8%;
+    margin: 7% 0 7% 85%;
+}
+#main{
+    background-color:#DEB873;
+}
+#red{
+    color: #7d2222;
+    position: relative;
+    height: 80vh;
+}
+.right{
+    position: absolute;
+    right: 100px;
+    padding:8% 0;
+}
+.abso{
+    position: absolute;
+    right:0;
+    padding-top:12%;
+    text-align: right;
+}
+#p1.text{
+    color:#7d2222;
+    margin:0 0 0 5%;
+}
+.container{
+    background:url(../img/bg-marconatto-1.jpg)right/contain no-repeat;
+    padding-bottom: 19%;
+    /* height: 65vh; */
+    width: 90%;
+    margin:13% auto 0;
+}
+.font1{
+    font-size: 4em;
+    color: #7d2222;
+    font-family: athene;
+}
+#käth.container{
+    background:url(../img/kathe_cover-1.jpg)left/contain no-repeat;
+    text-align: right;
+}
+#victor.container{
+    background:url(../img/bg-nicole-1.jpg)right/contain no-repeat; 
+}
+#bored.container{
+    background:url(../img/boa_cover-1.jpg)left/contain no-repeat;
+    text-align: right;
+}
+#abstand{
+    padding:13% 0 0;
+}
+footer{
+    background-color: #D2D2D2;
+    color: #1d8883;
+}
+#fuß.text{
+    margin:0 auto;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 3%;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+    color:#1d8883;
+}
+a:hover{
+    text-decoration: underline;
 }
